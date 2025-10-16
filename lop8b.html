@@ -1,0 +1,175 @@
+--<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lớp 8B - Trường THCS Đồng Bành</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f6fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1976d2;
+      color: white;
+      text-align: center;
+      padding: 25px 0;
+    }
+    h1 { margin: 0; font-size: 28px; }
+    h2.section-title {
+      width: 100%;
+      text-align: center;
+      font-size: 22px;
+      margin: 40px 0 10px;
+      color: #333;
+      border-bottom: 2px solid #1976d2;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+      gap: 15px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      width: 180px;
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.2s;
+    }
+    .card:hover { transform: scale(1.05); }
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .card h3 {
+      margin: 5px 0;
+      color: #1976d2;
+      font-size: 16px;
+    }
+    .card p {
+      margin: 0;
+      font-size: 14px;
+      color: #555;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #1976d2;
+      color: white;
+      margin-top: 40px;
+    }
+    .class-photo {
+      display: block;
+      margin: 20px auto;
+      max-width: 90%;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>LỚP 8B - TRƯỜNG THCS ĐỒNG BÀNH</h1>
+    <p>Năm học 2025</p>
+  </header>
+
+  <img src="images/tapthe.png" alt="Ảnh tập thể lớp 8B" class="class-photo">
+
+  <!-- GVCN -->
+  <section class="container">
+    <h2 class="section-title">Giáo viên chủ nhiệm</h2>
+    <div class="card">
+      <img src="images/huong.png" alt="Hồ Thị Thu Hương">
+      <h3>Cô Hồ Thị Thu Hương</h3>
+      <p>Giáo viên chủ nhiệm</p>
+    </div>
+  </section>
+
+  <!-- Ban cán sự -->
+  <section class="container">
+    <h2 class="section-title">Ban cán sự lớp</h2>
+    <div class="card"><img src="images/chau.png"><h3>Cao Minh Châu</h3><p>Lớp trưởng</p></div>
+    <div class="card"><img src="images/ha.png"><h3>Phùng Thị Ngọc Hà</h3><p>Lớp phó học tập</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Triệu Thị Ngọc Diệu</h3><p>Lớp phó lao động</p></div>
+    <div class="card"><img src="images/hoai.png"><h3>Vy Thu Hoài</h3><p>Lớp phó văn nghệ</p></div>
+    <div class="card"><img src="images/phuc.png"><h3>Đỗ Danh Gia Phúc</h3><p>Người làm trang web</p></div>
+  </section>
+
+  <!-- Tổ 1 -->
+  <section class="container">
+    <h2 class="section-title">Tổ 1</h2>
+    <div class="card"><img src="images/hoai.png"><h3>Vy Thu Hoài</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Nguyễn Thị Ngọc Lan</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Triệu Quốc Trung</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/dat.png"><h3>Tạ Tiến Đạt</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Lâm Duy Anh</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Triệu Thị Ngọc Diệu</h3><p>Lớp phó lao động</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Tạ Minh Quang</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Đàm Gia Tuệ</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Mễ Đức Trọng</h3><p>Tổ trưởng</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Phan Trung Kiên</h3><p>Tổ viên</p></div>
+  </section>
+
+  <!-- Tổ 2 -->
+  <section class="container">
+    <h2 class="section-title">Tổ 2</h2>
+    <div class="card"><img src="images/ha.png"><h3>Phùng Thị Ngọc Hà</h3><p>Lớp phó học tập</p></div>
+    <div class="card"><img src="images/chau.png"><h3>Cao Minh Châu</h3><p>Lớp trưởng</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Nguyễn Trung Kiên</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Nguyễn Bảo An</h3><p>Tổ trưởng</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Trịnh Công Đức Anh</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Nguyễn Quốc Cường</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Phùng Vi Tường Anh</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Nguyễn Hoàng Quân</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Linh Ngọc Nhi</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Lương Nhật Vy</h3><p>Tổ viên</p></div>
+  </section>
+
+  <!-- Tổ 3 -->
+  <section class="container">
+    <h2 class="section-title">Tổ 3</h2>
+    <div class="card"><img src="images/phuc.png"><h3>Đỗ Danh Gia Phúc</h3><p>Người làm trang web</p></div>
+    <div class="card"><img src="images/chi.png"><h3>Lành Bảo Chi</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Lê Văn Anh</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Vi Văn Cương</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Hoàng Linh Đan</h3><p>Tổ trưởng</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Triệu Quang Toán</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Bùi Hoàng Kiều</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Trần Đình Phong</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/khanh.png"><h3>Đỗ Đăng Gia Khánh</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/Nha.png"><h3>Nguyễn Thu Hà</h3><p>Tổ viên</p></div>
+  </section>
+
+  <!-- Tổ 4 -->
+  <section class="container">
+    <h2 class="section-title">Tổ 4</h2>
+    <div class="card"><img src="images/placeholder.png"><h3>Nguyễn Thị Duyên</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Ngô Nhật Linh</h3><p>Tổ trưởng</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Nông Hoàng Long</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Đàm Thị Ngọc Kiều</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Hoàng Triệu Anh Nguyên</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Lương Đại Thành</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Lương Thị Việt Linh</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Hứa Thị Hương Giang</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Nông Tuệ Lâm</h3><p>Tổ viên</p></div>
+    <div class="card"><img src="images/placeholder.png"><h3>Hứa Văn Phú</h3><p>Tổ viên</p></div>
+  </section>
+
+  <footer>
+    © 2025 - Lớp 8B Trường THCS Đồng Bành
+  </footer>
+
+</body>
+</html>
